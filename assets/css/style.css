@@ -1,0 +1,152 @@
+html {
+    width: 100vw;
+}
+body {
+    width: 100%;
+    height: 100%;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+p {
+    margin: 0;
+}
+.width-100 {
+    width: 100%;
+}
+.height-card-data {
+    height: 2.7rem !important;
+}
+.width-card-data {
+    width: 16rem;
+}
+.data-card-radius {
+    border-radius: 5px 5px 0 0;
+}
+.width-50 {
+    width: 50%;
+}
+
+.width-25 {
+    width: 25%;
+}
+.row {
+    display: inline-flex !important;
+}
+.space-between-items {
+    justify-content: space-between !important;
+}
+.space-center {
+    justify-content: center;
+}
+.justify-start {
+    justify-content: flex-start;
+} 
+.justify-end {
+    justify-content: flex-end;
+}
+.align-items-center {
+    align-items: center;
+}
+
+.header-dash {
+    height: 100%;
+    background-color: #3AA99E;
+    padding: .9%;
+}
+.header-dash nav ul{
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.header-dash nav ul .navigation-settings {
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+}
+
+.content {
+    padding: 1%;
+}
+
+.data {
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card {
+    height: 100%;
+    width: 100%;
+}
+.card-header {
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    border-radius: 5px 5px 0 0;
+}
+.card-header i {
+    margin-left: 10px;
+    color: rgba(0, 0, 0, .5);
+    
+}
+.card-header .card-data {
+    margin-right: 10px;
+    width: 65px;
+    justify-content: space-between;
+}
+.card-header .card-data i,
+.card-header .card-data p {
+    color: white
+}
+.card-header .card-data p {
+    font-size: 18pt;
+}
+.card-footer {
+    height: 1.8rem;
+    border-radius: 0 0 5px 5px;
+}
+.card-footer p {
+    margin-right: 10px;
+    color: white;
+    font-size: 11pt;
+}
+.devices {
+    background: #5B7682;
+}
+.devices .card .card-footer {
+    background: #546D78;
+}
+
+.pending-commands {
+    background: #9C27B0;
+}
+.pending-commands .card .card-footer {
+    background: #9325A6;
+}
+
+.failed-commands {
+    background: #E1453A;
+}
+.failed-commands .card .card-footer {
+    background: #D44137;
+}
+
+.premium {
+    background: #8BC34B;
+}
+.premium .card .card-footer {
+    background: #82B847;
+}
+
+.push-active {
+    background: #04B1C8;
+}
+.push-active .card .card-footer {
+    background: #049FB4;
+}
