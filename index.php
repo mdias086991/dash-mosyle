@@ -6,6 +6,7 @@
     <title>Dashboard - Mosyle</title>
 
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/globalStyles.css">
     <script src="https://kit.fontawesome.com/385c7d7d19.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -91,6 +92,37 @@
                     <div class="card-footer row width-100 justify-end align-items-center">
                         <p>Expiration date: 06/07/2020</p>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="graphics">
+            <div class="graphics-data row width-100">
+                <div class="pizza-graphic width-50">
+                    <div class="information-pizza">
+                        <p>Users</p>
+                    </div>
+                    <div class="graphic">
+                        <img src="assets/images/graphic_circle.png" alt="">
+                    </div>
+                    <div class="legends">
+                        <ul>
+                            <li><div class="squad green"></div><span>Students</span></li>
+                            <li><div class="squad red"></div><span>Teacher</span></li>
+                            <li><div class="squad blue"></div><span>Primary Leader</span></li>
+                            <li><div class="squad purple"></div><span>Location Leader</span></li>
+                            <li><div class="squad yellow"></div><span>Leader</span></li>
+                            <li><div class="squad dark-green"></div><span>Staff</span></li>
+                            <li><div class="squad brown"></div><span>MSP Admin</span></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="sent-commands-graphic width-50">
+                    <div class="information-line">
+                        <p>Users</p>
+                    </div>
+                    <div class="graphic"></div>
                 </div>
             </div>
         </section>
