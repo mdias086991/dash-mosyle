@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap');
 html {
     height: 100%;
 }
@@ -7,6 +8,7 @@ body {
     margin: 0;
     padding: 0;
     background: #cfcfcf;
+    font-family: 'Roboto', sans-serif;
 }
 ul li {
     list-style: none;
@@ -31,7 +33,7 @@ h3,p {
     height: 2.7rem !important;
 }
 .width-card-data {
-    width: 19%;
+    width: 16rem;
 }
 .data-card-radius {
     border-radius: 5px 5px 0 0;

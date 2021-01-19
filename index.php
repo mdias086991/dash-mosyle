@@ -7,6 +7,7 @@
 
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/globalStyles.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
     <script src="https://kit.fontawesome.com/385c7d7d19.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -17,7 +18,7 @@
                     <li>Danielle Bosco</li>
                 </div>
                 <div class="navigation-settings">
-                    <li><i class="fas fa-cog"></i> Settings</li>
+                    <li><i class="fas fa-cog "></i> Settings</li>
                     <li> <i class="fas fa-power-off"></i>Logout</li>
                 </div>
             </ul>
@@ -43,7 +44,7 @@
             <div class="pending-commands height-card-data width-card-data data-card-radius">
                 <div class="card">
                     <div class="card-header row .align-items-center .space-between-items width-100">
-                        <i class="fas fa-list-ul"></i>
+                        <i class="fas fa-list-ul fa-2x"></i>
                         <div class="card-data row align-items-center">
                             <i class="fas fa-redo"></i>
                             <p>257</p>
@@ -71,7 +72,7 @@
             <div class="premium height-card-data width-card-data data-card-radius">
                 <div class="card">
                     <div class="card-header row .align-items-center space-between-items  width-100">
-                        <i class="fas fa-id-card"></i>
+                        <i class="fas fa-id-card fa-2x"></i>
                         <div class="card-data-single">
                             <p>Premium</p>
                         </div>

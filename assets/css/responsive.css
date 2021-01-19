@@ -1,0 +1,23 @@
+@media (max-width: 320px) {
+    .content {
+        grid-template-rows: 16rem 26rem 20rem;
+        
+    }
+    .width-card-data {
+        width: 100%;
+    }
+    .graphics-data  {
+        flex-wrap: wrap;
+    }
+    .pizza-graphic {
+        width: 100%;
+    }
+    .sent-commands-graphic {
+        width: 100%;
+        margin: 0;
+        margin-top: 10px;
+    }
+    .tables {
+        flex-wrap: wrap;
+    }
+}

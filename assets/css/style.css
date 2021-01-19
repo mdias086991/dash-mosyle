@@ -12,6 +12,12 @@
     justify-content: space-around;
     width: 20%;
 }
+.user-logged li {
+    color: white;
+}
+.navigation-settings li{
+    color: white;
+}
 
 .content {
     display: grid;
@@ -44,11 +50,13 @@
 .card-header .card-data {
     margin-right: 10px;
     width: 65px;
-    justify-content: space-between;
 }
 .card-header .card-data i,
 .card-header .card-data p {
     color: white
+}
+.card-header .card-data i {
+    margin-right: 10px;
 }
 .card-header .card-data p {
     font-size: 18pt;
@@ -211,6 +219,7 @@
     padding: 10px;
     display: flex !important;
     justify-content: space-between;
+    text-transform: uppercase;
 }
 .last-commands .card-body,
 .alerts .card-body {
@@ -220,7 +229,7 @@
     margin-top: 3%;
 }
 .last-commands .card-body ul,
-.alerts-commands .card-body ul {
+.alerts .card-body ul {
     padding: 0;
 }
 .last-commands .card-body ul li,
@@ -241,6 +250,13 @@
     justify-content: center;
     align-items: center;
     overflow: hidden;
+}
+
+.alerts .card-body ul li .data_user {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
 
 
