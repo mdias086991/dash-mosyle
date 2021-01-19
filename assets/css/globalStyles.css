@@ -14,7 +14,7 @@ ul li {
 a {
     text-decoration: none;
 }
-p {
+h3,p {
     margin: 0;
 }
 .width-100 {
@@ -31,7 +31,7 @@ p {
     height: 2.7rem !important;
 }
 .width-card-data {
-    width: 22rem;
+    width: 19%;
 }
 .data-card-radius {
     border-radius: 5px 5px 0 0;

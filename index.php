@@ -120,9 +120,205 @@
 
                 <div class="sent-commands-graphic width-50">
                     <div class="information-line">
-                        <p>Users</p>
+                        <p><span>Sent Commands</span></p>
                     </div>
-                    <div class="graphic"></div>
+                    <div class="graphic">
+                    <img src="assets/images/graphic_line.png" alt="" style="width: 100%">
+                    </div>
+                </div>
+            </div>
+        </section>
+      
+        <section class="tables-section">
+            <div class="tables row width-100">
+                <div class="card last-commands">
+                    <div class="card-header purple">
+                        <h3>Last Commands Applied by Teachers</h3>
+                    </div>
+                    <div class="card-body">
+                        <ul>
+                            <li>
+                                <div class="icon_user">
+                                    <i class="fas fa-user fa-2x"></i>
+                                </div>
+                                <div class="data_user">
+                                    <div class="name_user">
+                                        Danilo Sousa  ADMIN applied a Quick Poll
+                                    </div>
+                                    <div class="data_user">
+                                        2020 - Magic
+                                    </div>
+                                    <div class="time">
+                                        1 day ago
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon_user">
+                                    <i class="fas fa-user fa-2x"></i>
+                                </div>
+                                <div class="data_user">
+                                    <div class="name_user">
+                                        Danilo Sousa  ADMIN applied a Quick Poll
+                                    </div>
+                                    <div class="data_user">
+                                        2020 - Magic
+                                    </div>
+                                    <div class="time">
+                                        1 day ago
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon_user">
+                                    <i class="fas fa-user fa-2x"></i>
+                                </div>
+                                <div class="data_user">
+                                    <div class="name_user">
+                                        Danilo Sousa  ADMIN applied a Quick Poll
+                                    </div>
+                                    <div class="data_user">
+                                        2020 - Magic
+                                    </div>
+                                    <div class="time">
+                                        1 day ago
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon_user">
+                                    <i class="fas fa-user fa-2x"></i>
+                                </div>
+                                <div class="data_user">
+                                    <div class="name_user">
+                                        Danilo Sousa  ADMIN applied a Quick Poll
+                                    </div>
+                                    <div class="data_user">
+                                        2020 - Magic
+                                    </div>
+                                    <div class="time">
+                                        1 day ago
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon_user">
+                                    <i class="fas fa-user fa-2x"></i>
+                                </div>
+                                <div class="data_user">
+                                    <div class="name_user">
+                                        Danilo Sousa  ADMIN applied a Quick Poll
+                                    </div>
+                                    <div class="data_user">
+                                        2020 - Magic
+                                    </div>
+                                    <div class="time">
+                                        1 day ago
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card alerts">
+                    <div class="card-header dark-gray">
+                        <h3>Alerts</h3>
+                        <h3>See more</h3>
+                    </div>
+                    <div class="card-body">
+                        <ul>
+                            <li>
+                                <div class="icon_user">
+                                    <i class="fas fa-user"></i>
+                                </div>
+                                <div class="data_user">
+                                    <div class="name_user">
+                                        <p>
+                                            Students without a Class Period
+                                        </p>
+                                    </div>
+                                    <div class="time">
+                                       62820
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon_user">
+                                    <i class="fas fa-user"></i>
+                                </div>
+                                <div class="data_user">
+                                    <div class="name_user">
+                                        <p>
+                                            Students without a Class Period
+                                        </p>
+                                    </div>
+                                    <div class="time">
+                                       62820
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon_user">
+                                    <i class="fas fa-user"></i>
+                                </div>
+                                <div class="data_user">
+                                    <div class="name_user">
+                                        <p>
+                                            Students without a Class Period
+                                        </p>
+                                    </div>
+                                    <div class="time">
+                                       62820
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon_user">
+                                    <i class="fas fa-user"></i>
+                                </div>
+                                <div class="data_user">
+                                    <div class="name_user">
+                                        <p>
+                                            Students without a Class Period
+                                        </p>
+                                    </div>
+                                    <div class="time">
+                                       62820
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon_user">
+                                    <i class="fas fa-user"></i>
+                                </div>
+                                <div class="data_user">
+                                    <div class="name_user">
+                                        <p>
+                                            Students without a Class Period
+                                        </p>
+                                    </div>
+                                    <div class="time">
+                                       62820
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon_user">
+                                    <i class="fas fa-user"></i>
+                                </div>
+                                <div class="data_user">
+                                    <div class="name_user">
+                                        <p>
+                                            Students without a Class Period
+                                        </p>
+                                    </div>
+                                    <div class="time">
+                                       62820
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </section>
