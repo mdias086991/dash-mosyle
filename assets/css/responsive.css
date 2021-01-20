@@ -1,23 +1,24 @@
-@media (max-width: 320px) {
-    .content {
-        grid-template-rows: 16rem 26rem 20rem;
-        
-    }
-    .width-card-data {
+@media (max-width: 814px) {
+    .header-dash nav ul {
+        display: block;
         width: 100%;
+        text-align: center;
     }
-    .graphics-data  {
-        flex-wrap: wrap;
+    .card {
+        width: 94vw;
     }
+    .sent-commands-graphic,
     .pizza-graphic {
+        width: 100% !important;
+        height: 15rem;
+        margin-top: 1rem;
+    }
+    .last-commands, 
+    .alerts {
         width: 100%;
     }
-    .sent-commands-graphic {
-        width: 100%;
-        margin: 0;
-        margin-top: 10px;
+    .last-commands {
+        margin-bottom: 5%;
     }
-    .tables {
-        flex-wrap: wrap;
-    }
+    
 }

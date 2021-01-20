@@ -14,7 +14,7 @@
     <header class="header-dash">
         <nav>
             <ul>
-                <div class="user-logged">
+                <div class="user-logged" id="user-logged">
                     <li>Danielle Bosco</li>
                 </div>
                 <div class="navigation-settings">
@@ -24,73 +24,72 @@
             </ul>
         </nav>
     </header>
-
     <main class="content">
-        <section class="data row width-100 ">
-            <div class="devices height-card-data width-card-data data-card-radius">
+        <section class="data">
+            <div class="devices space-card gray">
                 <div class="card">
-                    <div class="card-header row .align-items-center .space-between-items width-100">
+                    <div class="card-header">
                         <i class="fas fa-laptop"></i>
-                        <div class="card-data row align-items-center">
+                        <div class="card-data">
                             <i class="fas fa-redo"></i>
                             <p>20</p>
                         </div>
                     </div>
-                    <div class="card-footer row width-100 justify-end align-items-center">
+                    <div class="card-footer dark-gray">
                         <p>Devices</p>
                     </div>
                 </div>
             </div>
-            <div class="pending-commands height-card-data width-card-data data-card-radius">
+            <div class="pending-commands space-card purple">
                 <div class="card">
-                    <div class="card-header row .align-items-center .space-between-items width-100">
-                        <i class="fas fa-list-ul fa-2x"></i>
-                        <div class="card-data row align-items-center">
+                    <div class="card-header">
+                        <i class="fas fa-list-ul"></i>
+                        <div class="card-data">
                             <i class="fas fa-redo"></i>
                             <p>257</p>
                         </div>
                     </div>
-                    <div class="card-footer row width-100 justify-end align-items-center">
+                    <div class="card-footer dark-purple">
                         <p>Pending commands</p>
                     </div>
                 </div>
             </div>
-            <div class="failed-commands height-card-data width-card-data data-card-radius">
+            <div class="failed-commands space-card red">
                 <div class="card">
-                    <div class="card-header row .align-items-center .space-between-items width-100">
+                    <div class="card-header">
                         <i class="fas fa-exclamation-triangle"></i>
-                        <div class="card-data row align-items-center">
+                        <div class="card-data">
                             <i class="fas fa-redo"></i>
                             <p>2</p>
                         </div>
                     </div>
-                    <div class="card-footer row width-100 justify-end align-items-center">
+                    <div class="card-footer dark-red">
                         <p>Failed Commands</p>
                     </div>
                 </div>
             </div>
-            <div class="premium height-card-data width-card-data data-card-radius">
+            <div class="premium space-card green">
                 <div class="card">
-                    <div class="card-header row .align-items-center space-between-items  width-100">
-                        <i class="fas fa-id-card fa-2x"></i>
-                        <div class="card-data-single">
+                    <div class="card-header">
+                        <i class="fas fa-id-card"></i>
+                        <div class="card-data single">
                             <p>Premium</p>
                         </div>
                     </div>
-                    <div class="card-footer row width-100 justify-end align-items-center">
+                    <div class="card-footer dark-green">
                         <p>Premium up to: 24/11/2020</p>
                     </div>
                 </div>
             </div>
-            <div class="push-active height-card-data width-card-data data-card-radius">
+            <div class="push-active space-card blue">
                 <div class="card">
-                    <div class="card-header .align-items-center row space-between-items width-100">
+                    <div class="card-header">
                         <i class="fas fa-rss"></i>
-                        <div class="card-data-single">
+                        <div class="card-data single">
                             <p>Push active </p>
                         </div>
                     </div>
-                    <div class="card-footer row width-100 justify-end align-items-center">
+                    <div class="card-footer dark-blue">
                         <p>Expiration date: 06/07/2020</p>
                     </div>
                 </div>
@@ -98,9 +97,9 @@
         </section>
 
         <section class="graphics">
-            <div class="graphics-data row width-100">
-                <div class="pizza-graphic width-50">
-                    <div class="information-pizza">
+            <div class="graphics-data">
+                <div class="pizza-graphic">
+                    <div class="information-pizza dark-gray">
                         <p>Users</p>
                     </div>
                     <div class="graphic">
@@ -119,22 +118,22 @@
                     </div>
                 </div>
 
-                <div class="sent-commands-graphic width-50">
-                    <div class="information-line">
+                <div class="sent-commands-graphic">
+                    <div class="information-line blue">
                         <p><span>Sent Commands</span></p>
                     </div>
                     <div class="graphic">
-                    <img src="assets/images/graphic_line.png" alt="" style="width: 100%">
+                        <img src="assets/images/graphic_line.png" alt="" style="width: 100%">
                     </div>
                 </div>
             </div>
         </section>
-      
+
         <section class="tables-section">
-            <div class="tables row width-100">
+            <div class="tables">
                 <div class="card last-commands">
                     <div class="card-header purple">
-                        <h3>Last Commands Applied by Teachers</h3>
+                        <h5>Last Commands Applied by Teachers</h5>
                     </div>
                     <div class="card-body">
                         <ul>
@@ -223,8 +222,8 @@
                 </div>
                 <div class="card alerts">
                     <div class="card-header dark-gray">
-                        <h3>Alerts</h3>
-                        <h3>See more</h3>
+                        <h5>Alerts</h5>
+                        <h5>See more</h5>
                     </div>
                     <div class="card-body">
                         <ul>
@@ -324,6 +323,7 @@
             </div>
         </section>
     </main>
+
    
 </body>
 </html>
