@@ -18,82 +18,93 @@
                     <li>Danielle Bosco</li>
                 </div>
                 <div class="navigation-settings">
-                    <li><i class="fas fa-cog "></i> Settings</li>
-                    <li> <i class="fas fa-power-off"></i>Logout</li>
+                    <li><a href="#"><i class="fas fa-cog "></i> Settings</a></li>
+                    <li> <a href=""><i class="fas fa-power-off"></i>Logout</a></li>
                 </div>
             </ul>
         </nav>
     </header>
     <main class="content">
         <section class="data">
-            <div class="devices space-card gray">
-                <div class="card">
-                    <div class="card-header">
-                        <i class="fas fa-laptop"></i>
-                        <div class="card-data">
-                            <i class="fas fa-redo"></i>
-                            <p>20</p>
+            <a href="" class="animation-scale">
+                <div class="devices space-card gray">
+                    <div class="card">
+                        <div class="card-header">
+                            <i class="fas fa-laptop"></i>
+                            <div class="card-data">
+                                <i class="fas fa-redo"></i>
+                                <p>20</p>
+                            </div>
+                        </div>
+                        <div class="card-footer dark-gray">
+                            <p>Devices</p>
                         </div>
                     </div>
-                    <div class="card-footer dark-gray">
-                        <p>Devices</p>
-                    </div>
                 </div>
-            </div>
-            <div class="pending-commands space-card purple">
-                <div class="card">
-                    <div class="card-header">
-                        <i class="fas fa-list-ul"></i>
-                        <div class="card-data">
-                            <i class="fas fa-redo"></i>
-                            <p>257</p>
+            </a>
+            <a href="" class="animation-scale">
+                <div class="pending-commands space-card purple">
+                    <div class="card">
+                        <div class="card-header">
+                            <i class="fas fa-list-ul"></i>
+                            <div class="card-data">
+                                <i class="fas fa-redo"></i>
+                                <p>257</p>
+                            </div>
+                        </div>
+                        <div class="card-footer dark-purple">
+                            <p>Pending commands</p>
                         </div>
                     </div>
-                    <div class="card-footer dark-purple">
-                        <p>Pending commands</p>
-                    </div>
                 </div>
-            </div>
-            <div class="failed-commands space-card red">
-                <div class="card">
-                    <div class="card-header">
-                        <i class="fas fa-exclamation-triangle"></i>
-                        <div class="card-data">
-                            <i class="fas fa-redo"></i>
-                            <p>2</p>
+            </a>
+
+            <a href="" class="animation-scale">
+                <div class="failed-commands space-card  red">
+                    <div class="card">
+                        <div class="card-header">
+                            <i class="fas fa-exclamation-triangle"></i>
+                            <div class="card-data">
+                                <i class="fas fa-redo"></i>
+                                <p>2</p>
+                            </div>
+                        </div>
+                        <div class="card-footer dark-red">
+                            <p>Failed Commands</p>
                         </div>
                     </div>
-                    <div class="card-footer dark-red">
-                        <p>Failed Commands</p>
-                    </div>
                 </div>
-            </div>
-            <div class="premium space-card green">
-                <div class="card">
-                    <div class="card-header">
-                        <i class="fas fa-id-card"></i>
-                        <div class="card-data single">
-                            <p>Premium</p>
+            </a>
+            <a href="" class="animation-scale">
+                <div class="premium space-card  green">
+                    <div class="card">
+                        <div class="card-header">
+                            <i class="fas fa-id-card"></i>
+                            <div class="card-data single">
+                                <p>Premium</p>
+                            </div>
+                        </div>
+                        <div class="card-footer dark-green">
+                            <p>Premium up to: 24/11/2020</p>
                         </div>
                     </div>
-                    <div class="card-footer dark-green">
-                        <p>Premium up to: 24/11/2020</p>
-                    </div>
                 </div>
-            </div>
-            <div class="push-active space-card blue">
-                <div class="card">
-                    <div class="card-header">
-                        <i class="fas fa-rss"></i>
-                        <div class="card-data single">
-                            <p>Push active </p>
+            </a>
+            <a href="" class="animation-scale">
+                <div class="push-active space-card blue">
+                    <div class="card">
+                        <div class="card-header">
+                            <i class="fas fa-rss"></i>
+                            <div class="card-data single">
+                                <p>Push active </p>
+                            </div>
+                        </div>
+                        <div class="card-footer dark-blue">
+                            <p>Expiration date: 06/07/2020</p>
                         </div>
                     </div>
-                    <div class="card-footer dark-blue">
-                        <p>Expiration date: 06/07/2020</p>
-                    </div>
                 </div>
-            </div>
+            </a>
         </section>
 
         <section class="graphics">
@@ -103,7 +114,7 @@
                         <p>Users</p>
                     </div>
                     <div class="graphic">
-                        <img src="assets/images/graphic_circle.png" alt="">
+                        <canvas id="pie-chart"></canvas>
                     </div>
                     <div class="legends">
                         <ul>
@@ -122,8 +133,8 @@
                     <div class="information-line blue">
                         <p><span>Sent Commands</span></p>
                     </div>
-                    <div class="graphic">
-                        <img src="assets/images/graphic_line.png" alt="" style="width: 100%">
+                    <div class="graphic" style="display: flex; justify-content: center">
+                        <canvas id="myChart" width="500" height="190"></canvas>
                     </div>
                 </div>
             </div>
@@ -143,13 +154,15 @@
                                 </div>
                                 <div class="data_user">
                                     <div class="name_user">
-                                        Danilo Sousa  ADMIN applied a Quick Poll
+                                       <p>Danilo Sousa  ADMIN applied a Quick Poll</p>  
                                     </div>
                                     <div class="data_user">
-                                        2020 - Magic
+                                        <p>
+                                            <strong>2020</strong>  - Magic
+                                        </p>
                                     </div>
                                     <div class="time">
-                                        1 day ago
+                                        <p>1 day ago</p>
                                     </div>
                                 </div>
                             </li>
@@ -159,13 +172,14 @@
                                 </div>
                                 <div class="data_user">
                                     <div class="name_user">
-                                        Danilo Sousa  ADMIN applied a Quick Poll
-                                    </div>
+                                     <p>Danilo Sousa  ADMIN applied a Quick Poll</p>                                  </div>
                                     <div class="data_user">
-                                        2020 - Magic
+                                        <p>
+                                            <strong>2020</strong>  - Magic
+                                        </p>
                                     </div>
                                     <div class="time">
-                                        1 day ago
+                                        <p>1 day ago</p>
                                     </div>
                                 </div>
                             </li>
@@ -175,13 +189,14 @@
                                 </div>
                                 <div class="data_user">
                                     <div class="name_user">
-                                        Danilo Sousa  ADMIN applied a Quick Poll
-                                    </div>
+                                     <p>Danilo Sousa  ADMIN applied a Quick Poll</p>                                  </div>
                                     <div class="data_user">
-                                        2020 - Magic
+                                        <p>
+                                            <strong>2020</strong>  - Magic
+                                        </p>
                                     </div>
                                     <div class="time">
-                                        1 day ago
+                                        <p>1 day ago</p>
                                     </div>
                                 </div>
                             </li>
@@ -191,13 +206,14 @@
                                 </div>
                                 <div class="data_user">
                                     <div class="name_user">
-                                        Danilo Sousa  ADMIN applied a Quick Poll
-                                    </div>
+                                     <p>Danilo Sousa  ADMIN applied a Quick Poll</p>                                  </div>
                                     <div class="data_user">
-                                        2020 - Magic
+                                        <p>
+                                            <strong>2020</strong>  - Magic
+                                        </p>
                                     </div>
                                     <div class="time">
-                                        1 day ago
+                                        <p>1 day ago</p>
                                     </div>
                                 </div>
                             </li>
@@ -207,13 +223,14 @@
                                 </div>
                                 <div class="data_user">
                                     <div class="name_user">
-                                        Danilo Sousa  ADMIN applied a Quick Poll
-                                    </div>
+                                     <p>Danilo Sousa  ADMIN applied a Quick Poll</p>                                  </div>
                                     <div class="data_user">
-                                        2020 - Magic
+                                        <p>
+                                            <strong>2020</strong>  - Magic
+                                        </p>
                                     </div>
                                     <div class="time">
-                                        1 day ago
+                                        <p>1 day ago</p>
                                     </div>
                                 </div>
                             </li>
@@ -229,7 +246,7 @@
                         <ul>
                             <li>
                                 <div class="icon_user">
-                                    <i class="fas fa-user"></i>
+                                    <img src="assets/images/book.png" alt="" style="width: 15px">  
                                 </div>
                                 <div class="data_user">
                                     <div class="name_user">
@@ -244,61 +261,61 @@
                             </li>
                             <li>
                                 <div class="icon_user">
-                                    <i class="fas fa-user"></i>
+                                    <img src="assets/images/teachers.png" alt="" style="width: 15px">
                                 </div>
                                 <div class="data_user">
                                     <div class="name_user">
                                         <p>
-                                            Students without a Class Period
+                                            Teachers without a Class
                                         </p>
                                     </div>
                                     <div class="time">
-                                       62820
+                                       15673
                                     </div>
                                 </div>
                             </li>
                             <li>
                                 <div class="icon_user">
-                                    <i class="fas fa-user"></i>
+                                    <img src="assets/images/school.png" alt="" style="width: 15px;">
                                 </div>
                                 <div class="data_user">
                                     <div class="name_user">
                                         <p>
-                                            Students without a Class Period
+                                            Students without a grade level
                                         </p>
                                     </div>
                                     <div class="time">
-                                       62820
+                                       119
                                     </div>
                                 </div>
                             </li>
                             <li>
                                 <div class="icon_user">
-                                    <i class="fas fa-user"></i>
+                                    <img src="assets/images/no-wifi.png" alt="" width="15px">
                                 </div>
                                 <div class="data_user">
                                     <div class="name_user">
                                         <p>
-                                            Students without a Class Period
+                                            No connection
                                         </p>
                                     </div>
                                     <div class="time">
-                                       62820
+                                       13
                                     </div>
                                 </div>
                             </li>
                             <li>
                                 <div class="icon_user">
-                                    <i class="fas fa-user"></i>
+                                    <img src="assets/images/warning.png" alt="" style="width: 15px;">
                                 </div>
                                 <div class="data_user">
                                     <div class="name_user">
                                         <p>
-                                            Students without a Class Period
+                                            Expired push token
                                         </p>
                                     </div>
                                     <div class="time">
-                                       62820
+                                       10
                                     </div>
                                 </div>
                             </li>
@@ -323,7 +340,8 @@
             </div>
         </section>
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
 
-   
+    <script src="assets/js/charts.js"></script>
 </body>
 </html>

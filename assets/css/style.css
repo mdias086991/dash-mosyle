@@ -15,14 +15,21 @@
 .user-logged li {
     color: white;
 }
-.navigation-settings li{
+.navigation-settings li a{
     color: white;
+}
+.navigation-settings li a:hover i{
+    transform: rotate(360deg);
+    transition: .6s;
+}
+.navigation-settings li a i{
+    margin-right: 10px;
 }
 
 .content {
     margin: 0 3%;
 }
-.data,
+
 .graphics,
 .tables-section {
     margin-bottom: .9%;
@@ -40,6 +47,15 @@
     width: 15rem;
 }
 
+.animation-scale {
+    transition: .6s;
+    margin: 2% 0;
+    height: 5rem;
+}
+.animation-scale::hover {
+    transform: scale(.9) !important;
+    transition: .6s;
+} 
 .card .card-header {
     display: flex;
     align-items: center;
@@ -105,8 +121,9 @@
 .pizza-graphic {
     display: grid;
     background: white;
-    grid-template-columns: 50px  2fr 1fr;
+    grid-template-columns: 5%  70% 25%;
     width: 49%;
+    border-radius: 6px;
 }
 
 .information-pizza {
@@ -114,6 +131,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 6px 0 0 6px;
     
 }
 .information-pizza p{
@@ -150,6 +168,7 @@
     background: white;
     grid-template-columns: 50px  2fr;
     width: 49%;
+    border-radius: 6px;
 }
 
 .information-line {
@@ -157,6 +176,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 6px 0 0 6px;
 }
 
 .information-line p {
@@ -191,6 +211,11 @@
     justify-content: space-between;
     text-transform: uppercase;
 }
+
+.card-header h5 {
+    color: white
+}
+
 .last-commands .card-body,
 .alerts .card-body {
     max-height: 18rem;
@@ -199,6 +224,7 @@
     margin-top: 3%;
     height: 14rem;
     background: white;
+    padding: 0 10px;
 }
 .last-commands .card-body ul,
 .alerts .card-body ul {
